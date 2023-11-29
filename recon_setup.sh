@@ -2,7 +2,7 @@
 
 # Check if the correct number of arguments is provided
 if [ "$#" -ne 3 ]; then
-    echo "Usage: $0 <machine_name> <ip_address> <vpn_file>"
+    echo "Usage: $0 <machine_name> <ip_address> <vpn_full_path>"
     exit 1
 fi
 
